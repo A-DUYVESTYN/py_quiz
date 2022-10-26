@@ -26,9 +26,10 @@ class QuizBrain:
                 print("correct")
                 self.score += 1
             else:
-                print("incorrect")
+                print(f"incorrect. The answer is: {current_ans}")
 
+            print("")
         print(f"___________________________________")
-        print(f"Final score is {self.score} out of {self.question_number}. Goodbye!")
+        print(f"Your final score is {self.score} out of {self.question_number}. Goodbye!")
 
 
